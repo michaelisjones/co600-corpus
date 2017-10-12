@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -144866998, guid: 308a08880940d5742b84bd9be1f347df, type: 3}
+  m_Name: My Shock Wave
+  m_EditorClassIdentifier: 
+  initialSpeed: 500
+  waveMedium: {fileID: 11400000, guid: 6f4010df1de274cab92b108d1b401352, type: 2}
+  color1: {r: 0.034482718, g: 1, b: 0, a: 1}
+  color2: {r: 1, g: 0, b: 0, a: 1}
+  visualisation: 1
+  accuracy: 1
+  debugMode: 0
+  defaultInitialCount: 10000
+  maxCountMultiplier: 10
+  initialRadius: 0
+  constantAcceleration: -5
+  absorptionFactor: 0.2
+  enableAbsorption: 1
+  dynamicBounces: 0
